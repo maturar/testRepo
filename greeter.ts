@@ -18,4 +18,5 @@ function greeter(person : Person) {
 
 let user = new Student("Jane", "M.", "User");
 
-document.body.innerHTML = greeter(user);
+console.log("hello world");                // run the "hello world" direcly (on the server)
+//document.body.innerHTML = greeter(user); // run the "hello world in the browser"
